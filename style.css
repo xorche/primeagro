@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+.header {
+    background-color: #556B2F; /* verde musgo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Coloca os blocos de imagem e descrição um embaixo do outro */
+    padding: 20px;
+}
+
+
+.item {
+    display: flex; /* Coloca a imagem e a descrição lado a lado */
+    flex-direction: row; /* Horizontalmente */
+    margin-bottom: 20px; /* Espaçamento entre os blocos */
+    align-items: flex-start; /* Alinha os itens no início da linha */
+}
+
+
+.image {
+    width: 40%; /* Ajusta a largura da imagem */
+    padding-right: 20px; /* Espaçamento à direita para separar da descrição */
+}
+
+
+.image img {
+    width: 100%; /* Imagem responsiva */
+    border-radius: 10px;
+}
+
+
+.description {
+    width: 60%; /* Ajusta a largura da descrição */
+}
+
+
+.description h2 {
+    color: #556B2F;
+}
+
+
+.footer {
+    background-color: #556B2F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.contact-info {
+    margin-top: 10px;
+}
+
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.header nav ul li a:hover {
+    background-color: #6b8e23; /* Tom mais claro de verde musgo */
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+
+/*LISTAS*/
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+
+section h2 {
+    color: #556B2F;
+    border-bottom: 2px solid #6b8e23;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+section p, section ul {
+    line-height: 1.6;
+}
+
+
+.header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #547b05, #f2ffe9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 10px 0;
+}
+
